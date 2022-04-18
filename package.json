@@ -1,0 +1,19 @@
+{
+  "name": "nb-social-media",
+  "version": "1.0.0",
+  "description": "Non Binary Social Media",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasleenb29/NB-Social-Media.git"
+  },
+  "author": "Jasleen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasleenb29/NB-Social-Media/issues"
+  },
+  "homepage": "https://github.com/Jasleenb29/NB-Social-Media#readme"
+}
