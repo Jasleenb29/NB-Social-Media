@@ -1,19 +1,33 @@
 {
-  "name": "nb-social-media",
+  "name": "nb",
+  "version": "0.1.0",
+  "private": true,
   "version": "1.0.0",
   "description": "Non Binary Social Media",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jasleenb29/NB-Social-Media.git"
   },
   "author": "Jasleen",
   "license": "ISC",
+
   "bugs": {
     "url": "https://github.com/Jasleenb29/NB-Social-Media/issues"
   },
-  "homepage": "https://github.com/Jasleenb29/NB-Social-Media#readme"
+  "homepage": "https://github.com/Jasleenb29/NB-Social-Media#readme",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
 }
