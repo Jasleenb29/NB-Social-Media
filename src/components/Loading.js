@@ -1,4 +1,4 @@
-import { Circle } from "better-react-spinkit";
+import { Circle } from "@binaryluke/better-react-spinkit";
 import { Loading as Loader, Spacer } from '@nextui-org/react';
 
 

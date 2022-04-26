@@ -1,0 +1,23 @@
+.container{
+  background-color: #011526;
+  width: 100%;
+  height: 100vh;
+}
+
+.forum__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  margin-left: 200px;
+  width: calc(100vw - 200px);
+  height: calc(100vh - 80px);
+}
+
+@media screen and (max-width: 768px) {
+  .forum__container {
+    width: calc(100vw - 70px);
+    margin-left: 70px;
+  }
+}
